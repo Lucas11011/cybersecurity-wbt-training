@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cybersecurity Awareness Training</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- Course Container -->
+    <div class="course-wrapper">
+
+        <!-- Header -->
+        <header class="course-header">
+            <h1>Cybersecurity Awareness Training</h1>
+            <p class="course-subtitle">Estimated Time: 10 Minutes</p>
+        </header>
+
+        <!-- Progress Section -->
+        <section class="progress-section" aria-label="Course Progress">
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            <p class="progress-text" id="progress-text">
+                Lesson 1 of 3
+            </p>
+        </section>
+
+        <!-- Main Content Area -->
+        <main class="content-area" id="content-area" tabindex="-1">
+
+            <!-- This content will be dynamically replaced with JS -->
+
+            <div class="slide">
+                <h2>Welcome</h2>
+                <p>
+                    This training module will introduce you to basic cybersecurity
+                    best practices to help protect sensitive information.
+                </p>
+                <ul>
+                    <li>Recognize phishing attempts</li>
+                    <li>Create secure passwords</li>
+                    <li>Understand safe browsing habits</li>
+                </ul>
+                <p>
+                    Click "Next" to begin.
+                </p>
+            </div>
+
+        </main>
+
+        <!-- Navigation -->
+        <footer class="navigation">
+            <button id="back-btn" disabled>Back</button>
+            <button id="next-btn">Next</button>
+        </footer>
+
+    </div>
+
+    <script src="scorm-api.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
